@@ -1,0 +1,185 @@
+:root {
+    --dark-green: #02754b;
+    --banner-green: #a4cd01;
+    --muted-green: #090f06;
+    --btn-green: #e0d205;
+    --btn-green-hover: #29661a;
+}
+
+/* ---------- RESET ---------- */
+* {
+    box-sizing: border-box;
+}
+
+/* ---------- LAYOUT ---------- */
+html, body {
+    height: 100%;
+}
+
+body {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    background: var(--dark-green);
+    color: white;
+    font-family: system-ui, Arial, sans-serif;
+    transition: background-color .25s, color .25s;
+}
+
+main {
+    flex: 1;
+}
+
+/* ---------- NAVBAR ---------- */
+.navbar {
+    background: var(--banner-green);
+}
+
+.brand-icon {
+    height: 40px;
+}
+
+.brand-text {
+    color: white;
+    font-weight: 600;
+}
+
+/* ---------- HEADER ---------- */
+.site-banner {
+    background: var(--banner-green);
+    text-align: center;
+    padding: 3rem 0;
+}
+
+.header-icon {
+    height: 80px;
+}
+
+/* ---------- PRODUCT GRID ---------- */
+.products-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+    gap: 1.5rem;
+}
+
+/* ---------- PRODUCT CARD ---------- */
+.product-card {
+    background: var(--banner-green);
+    border-radius: 12px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    transition: transform .25s, box-shadow .25s;
+}
+
+.product-card:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 16px 30px rgba(0,0,0,.25);
+}
+
+.product-card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.card-body {
+    padding: 1rem;
+}
+
+.old-price {
+    text-decoration: line-through;
+    color: #fca5a5;
+}
+
+.price {
+    font-weight: 700;
+}
+
+/* ---------- BUTTONS ---------- */
+.btn-add {
+    background: var(--btn-green);
+    border: none;
+    color: #000;
+    padding: 10px;
+    font-weight: 600;
+}
+
+.btn-add:hover {
+    background: var(--btn-green-hover);
+    color: white;
+}
+
+/* ---------- CART & CHECKOUT ---------- */
+.table {
+    background: #065f46;
+}
+
+.table th,
+.table td {
+    color: white;
+}
+
+.checkout-card {
+    background: #065f46;
+    border-radius: 12px;
+}
+
+.list-group-item {
+    background: #065f46;
+    color: white;
+}
+
+/* ---------- CART BADGE ---------- */
+.floating-count {
+    position: absolute;
+    top: -6px;
+    right: -6px;
+}
+
+.pulse {
+    animation: pulse .45s ease;
+}
+
+@keyframes pulse {
+    50% { transform: scale(1.25); }
+}
+
+/* ---------- FOOTER ---------- */
+.footer {
+    background: #064e3b;
+    color: #d1fae5;
+    text-align: center;
+    padding: 1rem 0;
+    border-top: 1px solid rgba(255,255,255,0.1);
+}
+
+/* ---------- LIGHT MODE ---------- */
+body.light-mode {
+    background: #f8fafc;
+    color: #0f172a;
+}
+
+body.light-mode .navbar,
+body.light-mode .site-banner,
+body.light-mode .footer {
+    background: #e5e7eb;
+    color: #212529;
+}
+
+body.light-mode .product-card,
+body.light-mode .checkout-card,
+body.light-mode .table,
+body.light-mode .list-group-item {
+    background: white;
+    color: #0f172a;
+}
+
+body.light-mode .brand-text {
+    color: #0f172a;
+}
+
+body.light-mode .table th,
+body.light-mode .table td {
+    color: #0f172a;
+}

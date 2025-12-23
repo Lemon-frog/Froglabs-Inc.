@@ -1,0 +1,14 @@
+/* FULL SCREEN BACKGROUND CONTAINER */
+#balatro-bg {
+    position: fixed;
+    inset: 0;
+    width: 100vw;
+    height: 100vh;
+    z-index: -1; /* sits behind all content */
+    overflow: hidden;
+}
+#balatro-bg canvas {
+    width: 100%;
+    height: 100%;
+    display: block;
+}
