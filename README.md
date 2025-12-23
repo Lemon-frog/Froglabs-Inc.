@@ -20,6 +20,24 @@ The project features a playful frog-themed interface with support for **light an
 
 ## 🖼️ Preview
 
+### Homepage (Light Mode)
+![Homepage Light Mode](screenshots/Homepage%20Light%20Mode.png)
+
+### Homepage (Dark Mode)
+![Homepage Dark Mode](screenshots/Homepage%20Dark%20Mode%20.png)
+
+### Signup & Login
+![Signup and Login](screenshots/Signup%20and%20Login.png)
+
+### Cart
+![Cart](screenshots/Cart.png)
+
+### Checkout – Place Order
+![Checkout Place Order](screenshots/Checkout%20Place%20Order.png)
+
+### Checkout - Order Successful
+![Checkout Order Successful](screenshots/Checkout%20Order%20Placed%20Successfully.png)
+
 Screenshots showcasing the following features will be added:
 
 - Homepage (Light Mode)  
