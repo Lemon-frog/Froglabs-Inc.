@@ -56,20 +56,6 @@ Screenshots showcasing the following features will be added:
 - **Database:** MySQL  
 - **Server:** Local PHP server (XAMPP or similar)
 
----
-
-## 📂 Project Structure
-
-├── froglabs.php
-├── checkout.php
-├── db.php
-├── processorder.php
-├── froglabs.css
-├── images/
-│ ├── frog product images (.webp)
-│ └── logo assets
-└── screenshots/
-
 --- 
 
 ## 🚀 How to Run Locally 
