@@ -1,23 +1,3 @@
-# 🐸 Froglabs Inc.
-
-**Froglabs Inc.** is a dynamic e-commerce web application developed as a school project to showcase core web development concepts such as frontend UI design, backend logic, authentication, and cart/checkout functionality.
-
-The project features a playful frog-themed interface with support for **light and dark modes**, a fully functional product catalog, and a simulated checkout process that demonstrates end-to-end user flow.
-
----
-
-## ✨ Features
-
-- 🛒 Product listings with dynamic pricing and sale indicators  
-- ➕ Add-to-cart functionality with cart quantity tracking  
-- 🔐 Session-based login and signup system  
-- 🌗 Light and dark mode toggle  
-- 💳 Checkout flow with order placement and confirmation animation  
-- 📦 Backend logic for cart and checkout processing  
-- 🎨 Clean, responsive UI with a consistent color palette  
-
----
-
 ## 🖼️ Preview
 
 ### Homepage (Light Mode)
@@ -46,6 +26,26 @@ Screenshots showcasing the following features will be added:
 - Cart  
 - Checkout – Place Order  
 - Checkout – Success Screen  
+
+---
+
+# 🐸 Froglabs Inc.
+
+**Froglabs Inc.** is a dynamic e-commerce web application developed as a school project to showcase core web development concepts such as frontend UI design, backend logic, authentication, and cart/checkout functionality.
+
+The project features a playful frog-themed interface with support for **light and dark modes**, a fully functional product catalog, and a simulated checkout process that demonstrates end-to-end user flow.
+
+---
+
+## ✨ Features
+
+- 🛒 Product listings with dynamic pricing and sale indicators  
+- ➕ Add-to-cart functionality with cart quantity tracking  
+- 🔐 Session-based login and signup system  
+- 🌗 Light and dark mode toggle  
+- 💳 Checkout flow with order placement and confirmation animation  
+- 📦 Backend logic for cart and checkout processing  
+- 🎨 Clean, responsive UI with a consistent color palette  
 
 ---
 
