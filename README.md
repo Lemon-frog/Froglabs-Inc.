@@ -1,4 +1,4 @@
-## 🖼️ Preview
+## Preview
 
 ### Homepage (Light Mode)
 ![Homepage Light Mode](screenshots/Homepage%20Light%20Mode.png)
@@ -29,7 +29,7 @@ Screenshots showcasing the following features will be added:
 
 ---
 
-# 🐸 Froglabs Inc.
+# Froglabs Inc.
 
 **Froglabs Inc.** is a dynamic e-commerce web application developed as a school project to showcase core web development concepts such as frontend UI design, backend logic, authentication, and cart/checkout functionality.
 
@@ -37,19 +37,19 @@ The project features a playful frog-themed interface with support for **light an
 
 ---
 
-## ✨ Features
+## Features
 
-- 🛒 Product listings with dynamic pricing and sale indicators  
-- ➕ Add-to-cart functionality with cart quantity tracking  
-- 🔐 Session-based login and signup system  
-- 🌗 Light and dark mode toggle  
-- 💳 Checkout flow with order placement and confirmation animation  
-- 📦 Backend logic for cart and checkout processing  
-- 🎨 Clean, responsive UI with a consistent color palette  
+-  Product listings with dynamic pricing and sale indicators  
+-  Add-to-cart functionality with cart quantity tracking  
+-  Session-based login and signup system  
+-  Light and dark mode toggle  
+-  Checkout flow with order placement and confirmation animation  
+-  Backend logic for cart and checkout processing  
+-  Clean, responsive UI with a consistent color palette  
 
 ---
 
-## 🛠️ Tech Stack
+##  Tech Stack
 
 - **Frontend:** HTML, CSS, JavaScript  
 - **Backend:** PHP  
@@ -58,7 +58,7 @@ The project features a playful frog-themed interface with support for **light an
 
 --- 
 
-## 🚀 How to Run Locally 
+##  How to Run Locally 
 
 1. Install a local PHP server (e.g. **XAMPP**)
 2. Place the project folder inside the server's htdocs directory 
@@ -68,7 +68,7 @@ The project features a playful frog-themed interface with support for **light an
 
 ---
 
-## 👤 Author
+## Author
 
 **Jose Victor Siong**  
 BS Information Technology Student  
